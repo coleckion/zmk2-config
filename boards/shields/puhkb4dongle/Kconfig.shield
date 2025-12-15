@@ -1,0 +1,11 @@
+# Copyright (c) 2020 Ryan Cross
+# SPDX-License-Identifier: MIT
+
+config SHIELD_PUHKB4DONGLE_CENTER
+    def_bool $(shields_list_contains,puhkb4dongle_center)
+	
+config SHIELD_PUHKB4DONGLE_LEFT
+    def_bool $(shields_list_contains,puhkb4dongle_left)
+
+config SHIELD_PUHKB4DONGLE_RIGHT
+    def_bool $(shields_list_contains,puhkb4dongle_right)
