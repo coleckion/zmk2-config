@@ -1,4 +1,5 @@
 manifest:
+<<<<<<< HEAD
   defaults:
     revision: main
   remotes:
