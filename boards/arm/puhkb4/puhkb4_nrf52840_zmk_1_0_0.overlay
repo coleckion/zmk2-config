@@ -4,13 +4,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-/dts-v1/;
-#include "puhkb4.dtsi"
-
 / {
-    model = "puhkb4";
-    compatible = "coleckion,puhkb4";
-
     chosen {
         zmk,battery = &vbatt;
     };

@@ -1,0 +1,12 @@
+file_format: "1"
+id: puhkb4//zmk
+name: puhkb4
+type: board
+arch: arm
+outputs:
+  - usb
+  - ble
+url: https://nicekeyboards.com/nice-nano
+revisions:
+  - "1.0.0"
+default_revision: "1.0.0"
