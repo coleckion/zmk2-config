@@ -1,5 +1,5 @@
 file_format: "1"
-id: puhkb4//zmk
+id: puhkb4/nrf52840/zmk
 name: puhkb4
 type: board
 arch: arm
