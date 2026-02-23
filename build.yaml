@@ -36,7 +36,7 @@ include:
 #    snippet: studio-rpc-usb-uart
 #  - board: puhkb4/nrf52840/zmk
 #    shield: puhkb4dongle_left
- # - board: puhkb4
+ # - board: puhkb4/nrf52840/zmk
  #   shield: puhkb4dongle_right
- # - board: nice_nano
+ # - board: nice_nano//zmk
  #   shield: settings_reset
