@@ -40,6 +40,6 @@ include:
      shield: puhkb4dongle_right
    - board: nice_nano//zmk
      shield: settings_reset
+     snippet: nrf52840-nosd
    - board: puhkb4/nrf52840/zmk
      shield: settings_reset
-     snippet: nrf52840-nosd
