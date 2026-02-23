@@ -1,0 +1,3 @@
+if BOARD_PUHKB4
+
+endif # BOARD_PUHKB4
