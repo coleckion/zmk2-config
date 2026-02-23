@@ -1,5 +1,10 @@
 board:
   name: puhkb4
+   revision:
+    format: <major.minor.patch>
+    default: "1.0.0"
+    revisions:
+    - name: "1.0.0"
   socs:
   - name: nrf52840
     variants:
