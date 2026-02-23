@@ -6,5 +6,5 @@
 
 /dts-v1/;
 
-#include <../boards/puhkb4/puhkb4.dts>
+#include <../boards/arm/puhkb4/puhkb4.dts>
 #include <common/nordic/nrf52840_uf2_boot_mode.dtsi>
