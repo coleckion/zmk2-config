@@ -13,6 +13,7 @@
 
 /*&led_strip {
     chain-length = <23>;
+  };
  */
 
 #define BASE 0
