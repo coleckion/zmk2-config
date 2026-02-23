@@ -8,9 +8,6 @@ if SHIELD_PUHKB4DONGLE_CENTER
 		default y
 	config ZMK_SPLIT_ROLE_CENTRAL
 		default y
-	config ZMK_RGB_UNDERGLOW
-		select WS2812_STRIP
-		select SPI
 	if ZMK_DISPLAY
 		config SSD1306
 			default y
@@ -32,8 +29,5 @@ endif
 
 if SHIELD_PUHKB4DONGLE_LEFT || SHIELD_PUHKB4DONGLE_RIGHT
 	config ZMK_SPLIT
-		default y	
-	config ZMK_RGB_UNDERGLOW
-		select WS2812_STRIP
-		select SPI
+		default y
 endif

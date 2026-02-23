@@ -33,10 +33,10 @@ include:
 #    shield: settings_reset
    - board: nice_nano//zmk
      shield: puhkb4dongle_center
-#    snippet: studio-rpc-usb-uart
-#  - board: puhkb4/nrf52840/zmk
-#    shield: puhkb4dongle_left
- # - board: puhkb4/nrf52840/zmk
- #   shield: puhkb4dongle_right
- # - board: nice_nano//zmk
- #   shield: settings_reset
+     snippet: studio-rpc-usb-uart
+   - board: puhkb4/nrf52840/zmk
+     shield: puhkb4dongle_left
+   - board: puhkb4/nrf52840/zmk
+     shield: puhkb4dongle_right
+   - board: nice_nano//zmk
+     shield: settings_reset
