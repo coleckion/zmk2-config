@@ -1,5 +1,6 @@
 board:
   name: puhkb4
-  variants:
+  socs:
+  - name: nrf52840
+    variants:
     - name: zmk
-      qualifier: nrf52840
